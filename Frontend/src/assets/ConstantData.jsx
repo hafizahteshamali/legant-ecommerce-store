@@ -11,7 +11,7 @@ export const NavigationData = [
         url: "/about"
     },
     {
-        text: "Product Us",
+        text: "Products",
         url: "/products"
     },
     {
