@@ -18,7 +18,7 @@ const SignupController = async (req, res) => {
         }
         const userExist = await authModel.findOne({ email });
         if (userExist) {
-            return res.status(400).send({ success: false, message: "user already exist" });
+            return res.status(400).send({ success: false, message: "user already exist!" });
         }
         const otp = crypto.randomInt(100000, 1000000).toString();
         const otpExpire = new Date(Date.now() + 10 * 60 * 1000);
