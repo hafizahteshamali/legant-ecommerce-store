@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://legant-ecommerce-store.vercel.app/api",
   timeout: 30000,
 });
 
