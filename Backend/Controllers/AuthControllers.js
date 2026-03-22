@@ -1,5 +1,5 @@
 import authModel from "../Database/Models/AuthModel.js";
-import crypto from "crypto";
+import crypto from "node:crypto";
 import otpModel from "../Database/Models/OtpModel.js";
 import sendEmailOTP from "../utils/Email.js";
 import OtpTemplate from "../utils/Template.js";
